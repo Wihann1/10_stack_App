@@ -14,7 +14,7 @@ Future<List> popList(String dateOne, String dateTwo) async {
 
   var data = jsonDecode(response.body);
   if (response.statusCode == 200) {
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < 10; i++) {
       result.add(
         Stock(
             symbol: data['data'][i]['symbol'] ?? 'Not Available',
