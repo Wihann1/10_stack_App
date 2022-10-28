@@ -1,16 +1,7 @@
-# ten_stock
+# 10 Stock
 
-A new Flutter project.
+10 Stock is an app that generates 10 random stocks and displays relevant data.
 
-## Getting Started
+## Info
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app uses marketstack API to retrieve 10 random stocks. Using flutter's enjoyable UI designing, the task of displaying the relevant data was no problem.
