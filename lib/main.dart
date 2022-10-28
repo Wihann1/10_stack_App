@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         title: '10 Stock',
         theme: ThemeData(
           //Primary Font
+
           fontFamily: 'NanumGothic',
           //Primary Color
           colorScheme: ColorScheme.fromSwatch(primarySwatch: MyColors.navy)
