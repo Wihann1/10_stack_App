@@ -16,7 +16,7 @@ Widget listofstocks(DateTime dateOne, DateTime dateTwo) {
           //Create string for financial info
           return Expanded(
             child: ListView.builder(
-                itemCount: 1,
+                itemCount: 10,
                 itemBuilder: (context, index) {
                   return _stockCard(stocks?[index].symbol, stocks?[index].name,
                       stocks?[index].priceClose, stocks?[index].persDif);
